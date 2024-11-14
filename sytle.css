@@ -1,0 +1,74 @@
+body{
+    margin-top: 40px;
+}
+
+.person-img{
+    width: 40px;
+    position: absolute;
+    left:49%;
+    top:-1em;
+    filter: drop-shadow(10px 10px 8px #9c9999);
+}
+.maincontainer{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+/* .leftcontainer, .rightcontainer{
+    width: 33%;
+    border: none;
+    display: none;
+} */
+
+.middlecontainer{
+    border: solid 1px rgb(158, 155, 155);
+    text-align: center;
+    background-color: #f1efef;
+    padding: 40px;
+    box-shadow: 10px 10px 8px #b3b0b0;
+
+}
+
+.textbox{
+    background-color: rgb(213, 206, 206);
+    border: none;
+    height: 30px;
+    width: 120px;
+
+}
+
+.inputs{
+    height: auto;
+    font-size: 16px;
+    
+}
+
+::placeholder {
+        color: gray;
+        text-align: center;
+        font-size: 12px;
+  }
+
+.login-btn{
+    background-color: rgb(72, 147, 182);
+    border: none;
+    color: white;
+    margin-top: 25px;
+    width: 130px;
+    padding: 5px;
+}
+
+.login-btn:hover
+{
+    color: black;
+}
+.forgot-btn{
+    border: none;
+    color: orange;
+    padding-top: 5px;
+}
+
+.forgot-btn:hover{
+    color: black;
+}
